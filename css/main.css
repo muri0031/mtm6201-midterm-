@@ -1,0 +1,240 @@
+:root{
+    --primary-color: #CBE54E;
+    --secondary-color: #985A9D;
+    --light-color: white;
+    --h1-size: 70pt;
+    --h2-size:30pt
+}
+
+h1,h2{
+    text-align: center;
+    color: var(--secondary-color);
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-size: var(--h1-size);
+    margin-bottom: 80px;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.logo{
+    height: 150px;
+}
+
+.image-wrapper{
+    text-align: center;
+   }
+  
+   .nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4em; 
+    background-color: var(--primary-color);
+  }
+  
+  header nav ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    gap:6em;
+    list-style: none;
+    font-size: 25px;
+    font-weight: bold;
+    
+  }
+
+  
+    
+  .image-wrapper{
+    text-align: left;  
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+    
+
+
+nav li a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    
+}
+
+nav li a:hover {
+    color: #fffdfd;
+}*/
+
+.image-container {
+    width: 100%; 
+    height: 850px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+   }
+   
+   .image-container img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+   }
+
+
+
+.product{
+    width: 500px;
+}
+.description{
+    padding-right: 20px;
+    max-width: 500px;
+    width: 500px;
+}
+.about{
+    display: flex;
+    justify-content: center;  
+}
+
+
+
+
+.image{
+    width: 423px;
+    height: 329px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 423px);
+    grid-template-rows: repeat(3, 329px);
+    gap: 15px; 
+    justify-content: center;
+}
+
+
+.grid-item img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+}
+
+.people{
+    width: 246px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.review-container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+
+
+.reviews{
+    display: grid;
+    grid-template-columns: repeat(3, 423px);
+    grid-template-rows: repeat(1, 329px);
+    gap: 15px; 
+    justify-content: center;
+    margin-bottom: 300px;
+    text-align: center;
+}
+
+.review-container span{
+    background-color: #985A9D;
+    padding: 23px;
+    text-align: center;
+}
+
+
+footer{
+    background-color:var(--primary-color) ;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* *************************************************
+***********************About Page**************** */
+
+   .container{
+    position: relative;
+   }
+
+   #pop{
+    width: 100%;
+   }
+
+   h1{
+    position: absolute;
+    top: 30%;
+    right: 25%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 150px;
+    background-color: rgba(152, 90, 157, 0.5);
+   
+}
+.about-container img{
+    width: 600px;
+    height: 490px;
+}
+.about-wrap{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 620px);
+    grid-template-rows: repeat(2, 620px);
+    justify-content: center;
+}
+
+/*************************************************************
+************************Products PAge************************/
+#product{
+    width: 350px;
+    height: 350px;
+    border-radius: 10%;
+}
+.products-wrap{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+
+}
+
+/************************************************************
+******************Services Page*****************************/
+.offer-container {
+    display: grid;
+    grid-template-columns: repeat(2, 423px);
+    grid-template-rows: repeat(2, 329px);
+    gap: 15px; 
+    justify-content: center;
+}
+
+
+.offer-item img {
+    width: 100%; 
+    height: 100%;
+    object-fit: cover; 
+}
+
+.packages-container {
+    display: grid;
+    grid-template-columns: repeat(3, 423px);
+    gap: 15px; 
+    justify-content: center;
+}
+
+.other-container {
+    display: grid;
+    grid-template-columns: repeat(3, 423px);
+    gap: 15px; 
+    justify-content: center;
+}
