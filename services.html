@@ -12,51 +12,43 @@
     <!-------------------------Header--------------------------------
     ---------------------------------------------------------------->
     <header>
-       <div class="nav-container"> <!--Opens Nav-container-->
-       
-        <div><!--Opens div for Logo-->
-            <img src="images/Logo Cake.png" alt="Logo" class="logo">
-        </div><!--Closes div for Logo-->
-        <nav>
-             <ul> 
-            <li><a href="index.html">Home</a></li>
-            <li> <a href="about.html">About Us</a></li>
-            <li><a href="products.html">Products </a></li>
-            <li><a href="services.html">Services </a></li>
-        </ul>
-    </nav>
-</div><!--Closes Nav-container-->
-       <div class="container"><!--Opens container (this is for Nav Image)-->
-        <h1>Services</h1>
-         <img id="pop" src="images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg" alt="Our Bakery">
-
-        </div><!--Closes container-->
-    </header>
-
-<!-------------------------Main --------------------------------
----------------------------------------------------------------->
+        <div class="nav-container"><!--Open nav-container-->
+        
+             <div>
+                 <img src="images/logo.png" alt="Logo" class="logo"><!--This is to display in the same row nav ul and logo-->
+             </div>
+             <nav>
+                  <ul> 
+                     <li><a href="index.html">Home</a></li>
+                     <li> <a href="about.html">About Us</a></li>
+                     <li><a href="products.html">Products </a></li>
+                     <li><a href="services.html">Services </a></li>
+                 </ul>
+              </nav>
+         </div><!--Closes nav-container-->
+        <div class="image-container">
+          <img src="images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg" alt="Our Bakery" class="bakery">
+        </div>
+     </header>
+ 
     <main>
+        <h1>Services</h1>
+        <!----------------------------------------------------------------------------------------------------------------------------------------------------
+        ------------------------------------------------------------------What We offer---------------------------------------------------------------------->
         <section>
             <h2> What We Offer</h2>
-        <div class="offer-container">
-            <div class="offer-item">
-                <img src="images/graphe-tween-N1L9sN4oiCA-unsplash.jpg" alt="Chocalte Cake Pops" class="image">
-            </div>
-
-           <div class="offer-item"> 
-            <img src="images/tai-s-captures-Dl09VLx2JqM-unsplash.jpg" alt="Strawberry Cake Pop" class="image">
-           </div>
-
-           <div class="offer-item">
-             <img src="images/d-l-samuels-ZIRlju8VBXg-unsplash.jpg" alt="Unicorn" class="image">
-            </div>
-
-           <div class="offer-item">
-             <img src="images/natalie-chaney-p9568ach7gs-unsplash.jpg" alt="Cake Pops" class="image">
-           </div>
+                <div class="offer-container"><!--Opens oofer-container--><!---Opened this to dispay grid 2 columns-->
+                    <div class="offer-item"> 
+                         <img src="images/tai-s-captures-Dl09VLx2JqM-unsplash.jpg" alt="Strawberry Cake Pop" class="image">
+                    </div>
+                    <div class="offer-item">
+                        <img src="images/d-l-samuels-ZIRlju8VBXg-unsplash.jpg" alt="Unicorn" class="image">
+                     </div>
+                </div>
         </section>
 
         <section class="packages">
+            <h2>Packages</h2>
             <div class="packages-container">
                 <div class="package-item">
                     <h3>Package 1</h3>
@@ -91,17 +83,19 @@
             </div><!--Closes packages-container-->
         </section>
 
-        <section>
+        <section id="contact">
            <div class="other-container">
              <div class="other-item">
-                <form action="/submit" method="post">
+                <h3> Leave Us a Message</h3>
+                <p>We love to hear from you. If you have any questions, please leave us a message </p>
+                <form action="/submit" method="get">
                     <label for="name"> Name</label><br>
-                    <input type="text" id="fname" name="fname"><br>
+                    <input type="text" id="name" name="fname"><br>
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email"><br>
                     <label for="message">Message:</label><br>
                     <textarea id="message" name="message" rows="4" cols="50"></textarea><br>
-                    <input type="submit" value="Submit">
+                    <input id="submit" type="submit" value="Submit">
                    </form>
             </div>
             <div class="other-item">
@@ -116,7 +110,7 @@
     <footer>
       <p>  © 2023, Cake Up Bakery. All rights reserved.</p>
         <p>
-        1221 Cresthaven Dr. Ottawa, ON K2G 6G4
+            2065 Baseline Rd. Ottawa, ON K2G 6G4
         </p>
         <p>services@cakeupbakery.ca</p>
         <p>Phone number: 613-687-8975</p>

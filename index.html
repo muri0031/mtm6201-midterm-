@@ -7,32 +7,39 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
+    <!-------------------------------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------Header---------------------------------------------------------------------------->
+    <!--Header, Nav menu & image-->
     <header>
-       <div class="nav-container">
+       <div class="nav-container"><!--Open nav-container-->
        
-        <div>
-            <img src="images/Logo Cake.png" alt="Logo" class="logo">
-        </div>
-        <nav>
-             <ul> 
-            <li><a href="index.html">Home</a></li>
-            <li> <a href="about.html">About Us</a></li>
-            <li><a href="products.html">Products </a></li>
-            <li><a href="services.html">Services </a></li>
-        </ul>
-    </nav>
-</div>
+            <div>
+                <img src="images/logo.png" alt="Logo" class="logo"><!--This is to display in the same row nav ul and logo-->
+            </div>
+            <nav>
+                 <ul> 
+                    <li><a href="index.html">Home</a></li>
+                    <li> <a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products </a></li>
+                    <li><a href="services.html">Services </a></li>
+                </ul>
+             </nav>
+        </div><!--Closes nav-container-->
        <div class="image-container">
          <img src="images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg" alt="Our Bakery" class="bakery">
-        </div>
+       </div>
     </header>
+
 
     <main>
         <h1> Cake Up Bakery</h1>
-
-        <h2>Get to Know Us</h2>
-        <div class="container">
-            <section class="about">
+<!-----------------------------------------------------------------------------------------------------------------------------------------------------
+    ----------------------------------------------------------------------Get to Know Us------------------------------------------------------------->
+    <h2>Get to Know Us</h2>
+        <section class="about"><!--First Section-->
+            
+            <div class="container">
+            
                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     In egestas erat imperdiet sed. Magna fermentum iaculis eu non diam.
@@ -46,58 +53,38 @@
                     Faucibus a pellentesque sit amet. Nisi lacus sed viverra tellus.</p>
 
                     <img src="images/natalie-chaney-p9568ach7gs-unsplash.jpg" alt="Our Products" class="product">
-            </section>
-        </div>
-
-           
+            </div>
+    </section>
+           <!--------------------------------------------------------------------------------------------------------------------------------------
+        -----------------------------------------------------------------Latest Creations----------------------------------------------------------->
+         <section class="Creations">  <!--Second Section-->
             <h2>Latest Creations</h2>
-            <div class="grid-container">
-                <div class="grid-item">
-                    <img src="images/american-heritage-chocolate-TZFshUFzWRQ-unsplash (1).jpg" alt="Chocalte Cake Pops" class="image">
-                </div>
 
+            <div class="grid-container"><!--Opens grid-container-->
                <div class="grid-item"> 
                 <img src="images/showkat-chowdhury-I286SbaEm6Q-unsplash.jpg" alt="Strawberry Cake Pop" class="image">
                </div>
-
-               <div class="grid-item">
-                 <img src="images/tai-s-captures-Dl09VLx2JqM-unsplash.jpg" alt="Unicorn" class="image">
-                </div>
-
-               <div class="grid-item">
-                 <img src="images/d-l-samuels-ZIRlju8VBXg-unsplash.jpg" alt="Cake Pops" class="image">
-               </div>
-
                <div class="grid-item">   
                 <img src="images/american-heritage-chocolate-uHHC3xS9u3o-unsplash.jpg" alt="Rice Cake pops" class="image">
                </div>
-
                <div class="grid-item"> 
                 <img src="images/thomas-beaman-B0GHt2hwzdE-unsplash.jpg" alt="Cake Pop" class="image">
                </div>
-
                <div class="grid-item">
                 <img src="images/anna-bratiychuk-UOiHPTEXT3Q-unsplash.jpg" alt="White Cake Pops" class="im">
                </div>
+             </div><!--Closes grid-container-->
+        </section>
 
-               <div class="grid-item">
-                <img src="images/brooke-lark-ZkgWJ4BfgsE-unsplash.jpg" alt="Muffin" class="image">
-              </div>
-
-               <div class="grid-item">
-                 <img src="images/d-l-samuels-RgaIk9gGa8c-unsplash.jpg" alt="Cakes" class="image">
-                </div>
-            
-        </div>
-
-       
-             <h2>Reviews from our costumers</h2>
-
-             <div class="reviews">
-                <div class="review-container">
+       <!----------------------------------------------------------------------------------------------------------------------------------------------
+    -------------------------------------------------------------------------Reviews-------------------------------------------------------------------->
+            <section><!--Third Section-->
+                <h2>Reviews from our costumers</h2>
+                <div class="reviews"><!--Opens Reviews--><!--Opened this to display first grid-->
+                    <div class="review-container"><!--Opens Review-container--><!--Opened this to display second grid inside the review (this is each review)-->
                     <div class="review-image">
                     <img src="images/beautiful-woman-white-hair.jpg" alt="Client" class="people">
-                </div>
+                    </div>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -105,9 +92,9 @@
                     </p>
                 
                         <span data-rating="1/5">⭐⭐⭐⭐⭐</span>
-                </div>
+                </div><!--Closes Review-container-->
                 
-                <div class="review-container">
+                <div class="review-container"><!--Opens review-container-->
                     <div class="review-image">
                     <img src="images/Seema-Kiran-Sajdeh.jpg" alt="Client" class="people">
                 </div>
@@ -118,28 +105,19 @@
                     </p>
 
                         <span data-rating="1/5">⭐⭐⭐⭐⭐</span>       
-                 </div>
-               
-
-                 <div class="review-container">
-                   <div class="review-image">
-                    <img src="images/ab5086bb66c97573b3dfe3fceb565c3e.jpg" alt="Client" class="people">
-                </div>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        In egestas erat imperdiet sed. Magna fermentum iaculis eu non diam.  
-                    </p>
-                 
-                        <span data-rating="1/5">⭐⭐⭐⭐⭐</span>
-                </div>
+                 </div><!--Closes review-container-->
+            </div><!--Closes Reviews-->
+            </section>
+           <div class="button"> 
+                 <a id="shopNowButton" href="services.html#contact">Shop Now</a>
             </div>
-        
-    </main>
+            </main>
+<!--------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------Footer--------------------------------------------------------------------->
     <footer>
       <p>  © 2023, Cake Up Bakery. All rights reserved.</p>
         <p>
-        1221 Cresthaven Dr. Ottawa, ON K2G 6G4
+            2065 Baseline Rd. Ottawa, ON K2G 6G4
         </p>
         <p>services@cakeupbakery.ca</p>
         <p>Phone number: 613-687-8975</p>
