@@ -257,13 +257,18 @@ footer{
     width: 350px;
     height: 450px;
     border-radius: 10%;
+    
 }
 .products-wrap{
     display: grid;
     grid-template-columns: repeat(2,500px);
     justify-content: center;
-    background-color: #985A9D;
+    background-color:#CBE54E;
 
+}
+
+.products-wrap h4{
+    color: #985A9D;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------
