@@ -11,11 +11,12 @@
 <body>
     <!-------------------------Header--------------------------------
     ---------------------------------------------------------------->
-    <header role="banner">
+    <header itemscope itemtype="https://schema.org/LocalBusiness" role="banner">
+        <a href="#main" class="skip">Skip to Main content</a>
         <div class="nav-container"><!--Open nav-container-->
         
              <div>
-                 <img src="images/logo.png" alt="Our Logo" class="logo"><!--This is to display in the same row nav ul and logo-->
+                 <img itemprop="logo" src="images/logo.png" alt="Our Logo" class="logo"><!--This is to display in the same row nav ul and logo-->
              </div>
              <nav role="navigation">
                   <ul> 
@@ -27,32 +28,32 @@
               </nav>
          </div><!--Closes nav-container-->
         <div class="image-container">
-          <img src="images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg" alt="Our Bakery" class="bakery">
+          <img itemprop="image" src="images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg" alt="Our Bakery" class="bakery">
         </div>
      </header>
  
-    <main>
-        <h1>Services</h1>
+    <main itemscope itemtype="https://schema.org/LocalBusiness" id="main">
+        <h1 itemprop="makesOffer">Services</h1>
         <!----------------------------------------------------------------------------------------------------------------------------------------------------
         ------------------------------------------------------------------What We offer---------------------------------------------------------------------->
         <section role="region" role="region">
             <h2> What We Offer</h2>
                 <div class="offer-container"><!--Opens oofer-container--><!---Opened this to dispay grid 2 columns-->
                     <div class="offer-item"> 
-                         <img src="images/tai-s-captures-Dl09VLx2JqM-unsplash.jpg" alt="Strawberry Cake Pop" class="image">
+                         <img itemprop="photo" src="images/tai-s-captures-Dl09VLx2JqM-unsplash.jpg" alt="Strawberry Cake Pop" class="image">
                     </div>
                     <div class="offer-item">
-                        <img src="images/d-l-samuels-ZIRlju8VBXg-unsplash.jpg" alt="Unicorn" class="image">
+                        <img itemprop="photo" src="images/d-l-samuels-ZIRlju8VBXg-unsplash.jpg" alt="Unicorn" class="image">
                      </div>
                 </div>
         </section>
 
-        <section class="packages" role="region">
+        <section id="packages" role="region">
             <h2>Packages</h2>
             <div class="packages-container">
                 <div class="package-item">
-                    <h3>Package 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <h3 itemprop="name">Package 1</h3>
+                    <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         In egestas erat imperdiet sed. Magna fermentum iaculis eu non diam.
                         Ut faucibus pulvinar elementum integer enim. Sagittis orci a scelerisque purus semper eget duis at tellus.
@@ -61,8 +62,8 @@
                         <p>$250 Dolars</p>
                 </div>
                 <div class="package-item">
-                    <h3>Package 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <h3 itemprop="name">Package 2</h3>
+                    <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         In egestas erat imperdiet sed. Magna fermentum iaculis eu non diam.
                         Ut faucibus pulvinar elementum integer enim. Sagittis orci a scelerisque purus semper eget duis at tellus.
@@ -71,8 +72,8 @@
                         <p>$300 Dolars</p>
                 </div>
                 <div class="package-item">
-                    <h3>Package 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                    <h3 itemprop="name">Package 3</h3>
+                    <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         In egestas erat imperdiet sed. Magna fermentum iaculis eu non diam.
                         Ut faucibus pulvinar elementum integer enim. Sagittis orci a scelerisque purus semper eget duis at tellus.
@@ -103,17 +104,15 @@
             </div>
         </div>
 
-        </section>
-
-        
+        </section>    
     </main>
-    <footer role="contentinfo">
-      <p>  © 2023, Cake Up Bakery. All rights reserved.</p>
-        <p>
+    <footer itemscope itemtype="https://schema.org/LocalBusiness" role="contentinfo">
+      <p itemprop="legalName">  © 2023, Cake Up Bakery. All rights reserved.</p>
+        <p itemprop="address">
             2065 Baseline Rd. Ottawa, ON K2G 6G4
         </p>
-        <p>services@cakeupbakery.ca</p>
-        <p>Phone number: 613-687-8975</p>
+        <p itemprop="email">services@cakeupbakery.ca</p>
+        <p itemprop="telephone">Phone number: 613-687-8975</p>
     </footer>
 
 </body>

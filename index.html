@@ -10,11 +10,12 @@
     <!-------------------------------------------------------------------------------------------------------------------------------------------
     -----------------------------------------------------------Header---------------------------------------------------------------------------->
     <!--Header, Nav menu & image-->
-    <header role="banner">
+    <header itemscope itemtype="https://schema.org/LocalBusiness" role="banner">
+        <a href="#main" class="skip">Skip to Main content</a>
        <div class="nav-container"><!--Open nav-container-->
        
             <div>
-                <img src="images/logo.png" alt="Logo" class="logo"><!--This is to display in the same row nav ul and logo-->
+                <img itemprop="logo" src="images/logo.png" alt="Logo" class="logo"><!--This is to display in the same row nav ul and logo-->
             </div>
             <nav role="navigation">
                  <ul> 
@@ -31,11 +32,11 @@
     </header>
 
 
-    <main>
-        <h1> Cake Up Bakery</h1>
+    <main itemscope itemtype="https://schema.org/LocalBusiness" id="main">
+        <h1 itemprop="legalName" > Cake Up Bakery</h1>
 <!-----------------------------------------------------------------------------------------------------------------------------------------------------
     ----------------------------------------------------------------------Get to Know Us------------------------------------------------------------->
-    <h2>Get to Know Us</h2>
+    <h2 itemprop="seeks">Get to Know Us</h2>
         <section role="region" class="about"><!--First Section-->
             
             <div class="container">
@@ -57,29 +58,29 @@
     </section>
            <!--------------------------------------------------------------------------------------------------------------------------------------
         -----------------------------------------------------------------Latest Creations----------------------------------------------------------->
-         <section role="region" class="Creations">  <!--Second Section-->
-            <h2>Latest Creations</h2>
+         <section itemscope itemtype="https://schema.org/LocalBusiness" role="region" class="Creations">  <!--Second Section-->
+            <h2 itemprop="makesOffer">Latest Creations</h2>
 
             <div class="grid-container"><!--Opens grid-container-->
                <div class="grid-item"> 
-                <img src="images/showkat-chowdhury-I286SbaEm6Q-unsplash.jpg" alt="Strawberry Cake Pop" class="image">
+                <img itemprop="image" src="images/showkat-chowdhury-I286SbaEm6Q-unsplash.jpg" alt="Strawberry Cake Pop" class="image">
                </div>
                <div class="grid-item">   
-                <img src="images/american-heritage-chocolate-uHHC3xS9u3o-unsplash.jpg" alt="Rice Cake pops" class="image">
+                <img itemprop="image" src="images/american-heritage-chocolate-uHHC3xS9u3o-unsplash.jpg" alt="Rice Cake pops" class="image">
                </div>
                <div class="grid-item"> 
-                <img src="images/thomas-beaman-B0GHt2hwzdE-unsplash.jpg" alt="Cake Pop" class="image">
+                <img itemprop="image" src="images/thomas-beaman-B0GHt2hwzdE-unsplash.jpg" alt="Cake Pop" class="image">
                </div>
                <div class="grid-item">
-                <img src="images/anna-bratiychuk-UOiHPTEXT3Q-unsplash.jpg" alt="White Cake Pops" class="im">
+                <img itemprop="image" src="images/anna-bratiychuk-UOiHPTEXT3Q-unsplash.jpg" alt="White Cake Pops" class="im">
                </div>
              </div><!--Closes grid-container-->
         </section>
 
        <!----------------------------------------------------------------------------------------------------------------------------------------------
     -------------------------------------------------------------------------Reviews-------------------------------------------------------------------->
-            <section role="region"><!--Third Section-->
-                <h2>Reviews from our costumers</h2>
+            <section itemscope itemtype="https://schema.org/LocalBusiness" role="region"><!--Third Section-->
+                <h2 itemprop="review">Reviews from our costumers</h2>
                 <div class="reviews"><!--Opens Reviews--><!--Opened this to display first grid-->
                     <div class="review-container"><!--Opens Review-container--><!--Opened this to display second grid inside the review (this is each review)-->
                     <div class="review-image">
@@ -114,14 +115,15 @@
             </main>
 <!--------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------Footer--------------------------------------------------------------------->
-    <footer role="contentinfo">
-      <p>  © 2023, Cake Up Bakery. All rights reserved.</p>
-        <p>
+    <footer itemscope itemtype="https://schema.org/LocalBusiness" role="contentinfo">
+      <p itemprop="legalName">  © 2023, Cake Up Bakery. All rights reserved.</p>
+        <p itemprop="address">
             2065 Baseline Rd. Ottawa, ON K2G 6G4
         </p>
-        <p>services@cakeupbakery.ca</p>
-        <p>Phone number: 613-687-8975</p>
+        <p itemprop="email">services@cakeupbakery.ca</p>
+        <p itemprop="telephone">Phone number: 613-687-8975</p>
     </footer>
 
 </body>
 </html>
+

@@ -10,11 +10,12 @@
 <body>
     <!------------------------------------------------------------------------------------------------------------------------------------------------
         --------------------------------------------------------------------------Header-------------------------------------------------------------->
-    <header>
+    <header role="banner">
+        <a href="#main" class="skip">Skip to Main content</a>
        <div class="nav-container"> <!--Opens Nav-container-->
        
-        <div><!--Opens div for Logo-->
-            <img src="images/logo.png" alt="Logo" class="logo">
+        <div itemscope itemtype="https://schema.org/LocalBusiness"><!--Opens div for Logo-->
+            <img itemprop="logo" src="images/logo.png" alt="Logo" class="logo">
         </div><!--Closes div for Logo-->
         <nav>
              <ul> 
@@ -30,23 +31,23 @@
         </div><!--Closes Nav-container-->
     </header>
 
-    <main>
+    <main id="main">
       <!---------------------------------------------------------------------------------------------------------------------------------------------------
     --------------------------------------------------------------------------Our Products---------------------------------------------------------------->
-            <h1> Our Products</h1>
+            <h1 itemscope itemtype="https://schema.org/Product"> Our Products</h1>
             <section role="region" class="flavors">
             <h2>Flavors</h2>
            
            <!----------------Chipotle Cake Pop------------------------>
            <article>
-              <h3>Chipotle Cake Pop</h3>
+              <h3 itemprop="name">Chipotle Cake Pop</h3>
               <div class="products-wrap"><!--Opens products-Wrap--><!--Opened this to display grid for 2 columns-->
                  <div class="products-container"> <!--Opened this to display 1 coulmn 3 rows inside the second column-->
-                     <img class="product" src="images/cakepop.jpg" alt="Our Bakery">
+                     <img itemprop="image" class="product" src="images/cakepop.jpg" alt="Our Bakery">
                  </div>
                  <div class="products-container"> <!--Opens Product-container-->
                      <div><!--opened this to display columns inside the products-wrap-->
-                         <h4>Ingredients</h4>
+                         <h4 itemprop="material">Ingredients</h4>
                              <ul>
                                 <li>Lorem Impsum</li>
                                 <li>Lorem Impsum</li>
@@ -54,7 +55,7 @@
                                 <li>Lorem Impsum</li>
                                 <li>Lorem Impsum</li>
                              </ul>
-                             <h4>Nutritional Information</h4>
+                             <h4 itemprop="description">Nutritional Information</h4>
                                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 In egestas erat imperdiet sed. Magna fermentum iaculis eu non diam.
@@ -69,15 +70,15 @@
            </article>     
        
         <!------------------Sweet Sentiment------------------------->
-           <article class="our-products">
-                <h3>Sweet Sentiment</h3>
+           <article itemscope itemtype="https://schema.org/Product" class="our-products">
+                <h3 itemprop="name">Sweet Sentiment</h3>
                  <div class="products-wrap"><!--Opens products-Wrap-->
                     <div class="products-container">
-                         <img class="product" src="images/anna-bratiychuk-UOiHPTEXT3Q-unsplash.jpg" alt="Our Bakery">
+                         <img itemprop="image" class="product" src="images/anna-bratiychuk-UOiHPTEXT3Q-unsplash.jpg" alt="Our Bakery">
                     </div>
                     <div class="products-container">
                         <div>
-                             <h4>Ingredients</h4>
+                             <h4 itemprop="material">Ingredients</h4>
                                 <ul>
                                     <li>Lorem Impsum</li>
                                     <li>Lorem Impsum</li>
@@ -85,7 +86,7 @@
                                     <li>Lorem Impsum</li>
                                     <li>Lorem Impsum</li>
                                 </ul>
-                                <h4>Nutritional Information</h4>
+                                <h4 itemprop="description">Nutritional Information</h4>
                                     <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                         In egestas erat imperdiet sed. Magna fermentum iaculis eu non diam.
@@ -100,15 +101,15 @@
             </article>
 
             <!-------------------------Rice Pop--------------------->
-            <article class="our-products">
-                <h3>Rice pop</h3>
+            <article itemscope itemtype="https://schema.org/Product" class="our-products">
+                <h3 itemprop="name">Rice pop</h3>
                 <div class="products-wrap"><!--Opens products-Wrap-->
                     <div class="products-container">
-                        <img class="product" src="images/american-heritage-chocolate-uHHC3xS9u3o-unsplash.jpg" alt="Our Bakery">
+                        <img itemprop="image" class="product" src="images/american-heritage-chocolate-uHHC3xS9u3o-unsplash.jpg" alt="Our Bakery">
                     </div>
                     <div class="products-container">
                         <div> 
-                            <h4>Ingredients</h4>
+                            <h4 itemprop="material">Ingredients</h4>
                                 <ul>
                                     <li>Lorem Impsum</li>
                                     <li>Lorem Impsum</li>
@@ -116,7 +117,7 @@
                                     <li>Lorem Impsum</li>
                                     <li>Lorem Impsum</li>
                                 </ul>
-                            <h4>Nutritional Information</h4>
+                            <h4 itemprop="description">Nutritional Information</h4>
                                 <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                     In egestas erat imperdiet sed. Magna fermentum iaculis eu non diam.
@@ -131,15 +132,15 @@
                     </div><!--Closes products-Wrap-->       
             </article>
             <!-------------------------Wild Strawberry--------------------->
-            <article class="our-products">
-                <h3>Wild Strawberry</h3>
+            <article itemscope itemtype="https://schema.org/Product" class="our-products">
+                <h3 itemprop="name">Wild Strawberry</h3>
                  <div class="products-wrap"><!--Opens products-Wrap-->
                      <div class="products-container">
-                         <img class="product" src="images/showkat-chowdhury-I286SbaEm6Q-unsplash.jpg" alt="Our Bakery">
+                         <img itemprop="image" class="product" src="images/showkat-chowdhury-I286SbaEm6Q-unsplash.jpg" alt="Our Bakery">
                      </div>
                      <div class="products-container">
                         <div> 
-                            <h4>Ingredients</h4>
+                            <h4 itemprop="material">Ingredients</h4>
                                 <ul>
                                     <li>Lorem Impsum</li>
                                     <li>Lorem Impsum</li>
@@ -147,7 +148,7 @@
                                     <li>Lorem Impsum</li>
                                     <li>Lorem Impsum</li>
                                 </ul>
-                            <h4>Nutritional Information</h4>
+                            <h4 itemprop="description">Nutritional Information</h4>
                             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                                 In egestas erat imperdiet sed. Magna fermentum iaculis eu non diam.
@@ -167,13 +168,13 @@
     </main>
     <!---------------------------------------------------------------------------------------------------------------------------------------------
     -----------------------------------------------------------------------Footer------------------------------------------------------------------>
-    <footer role="contentinfo">
-      <p>  © 2023, Cake Up Bakery. All rights reserved.</p>
-        <p>
+    <footer itemscope itemtype="https://schema.org/LocalBusiness" role="contentinfo">
+      <p itemprop="legalName">  © 2023, Cake Up Bakery. All rights reserved.</p>
+        <p itemprop="address">
         2065 Baseline Rd. Ottawa, ON K2G 6G4
         </p>
-        <p>services@cakeupbakery.ca</p>
-        <p> number: 613-687-8975</p>
+        <p itemprop="email">services@cakeupbakery.ca</p>
+        <p itemprop="telephone"> number: 613-687-8975</p>
     </footer>
 
 </body>

@@ -344,3 +344,28 @@ footer{
     color: #fffdfd;
     border: #ffffff;
 }
+
+
+/*Skip Links*/
+
+.skip {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: 999;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    opacity: 0;
+  }
+  .skip:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }

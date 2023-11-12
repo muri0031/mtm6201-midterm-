@@ -10,10 +10,11 @@
 <body>
     <!----------------------------------------------------------------------------------------------------------------------------------------------------
     ----------------------------------------------------------------------------Header------------------------------------------------------------------>
-    <header role="banner">
+    <header itemscope itemtype="https://schema.org/LocalBusiness" role="banner">
+        <a href="#main" class="skip">Skip to Main content</a>
        <div class="nav-container"> <!--Opens Nav-container-->
             <div><!--Opens div for Logo--> <!--This is to display in the same row nav ul and logo-->
-                 <img src="images/logo.png" alt="Logo" class="logo">
+                 <img itemprop="logo" src="images/logo.png" alt="Logo" class="logo">
              </div><!--Closes div for Logo-->
             <nav role="navigation">
                  <ul> 
@@ -25,11 +26,11 @@
              </nav>
         </div><!--Closes Nav-container-->
        <div class="image-container"><!--Opens container (this is for Nav Image)-->
-         <img id="pop" src="images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg" alt="Our Bakery">
+         <img itemprop="photo" id="pop" src="images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg" alt="Our Bakery">
        </div>
     </header>
     
-    <main>
+    <main id="main">
         <h1>About Us</h1>
         <!-----------------------------------------------------------------------------------------------------------------------------------------------
         --------------------------------------------------------------------Our Story-------------------------------------------------------------------->
@@ -70,13 +71,13 @@
     </main>
     <!-----------------------------------------------------------------------------------------------------------------------------------------------
     ------------------------------------------------------------------Footer------------------------------------------------------------------------>
-    <footer role="contentinfo">
-      <p>  © 2023, Cake Up Bakery. All rights reserved.</p>
-        <p>
+    <footer itemscope itemtype="https://schema.org/LocalBusiness" role="contentinfo">
+      <p itemprop="legalName">  © 2023, Cake Up Bakery. All rights reserved.</p>
+        <p itemprop="address">
             2065 Baseline Rd. Ottawa, ON K2G 6G4
         </p>
-        <p>services@cakeupbakery.ca</p>
-        <p>Phone number: 613-687-8975</p>
+        <p itemprop="email">services@cakeupbakery.ca</p>
+        <p itemprop="telephone">Phone number: 613-687-8975</p>
     </footer>
 
 </body>
