@@ -11,18 +11,18 @@
 <body>
     <!-------------------------Header--------------------------------
     ---------------------------------------------------------------->
-    <header>
+    <header role="banner">
         <div class="nav-container"><!--Open nav-container-->
         
              <div>
                  <img src="images/logo.png" alt="Our Logo" class="logo"><!--This is to display in the same row nav ul and logo-->
              </div>
-             <nav>
+             <nav role="navigation">
                   <ul> 
-                     <li><a href="index.html">Home</a></li>
-                     <li> <a href="about.html">About Us</a></li>
-                     <li><a href="products.html">Products </a></li>
-                     <li><a href="services.html">Services </a></li>
+                     <li><a href="index.html" aria-label="go to home Page">Home</a></li>
+                     <li> <a href="about.html" aria-label="go to about page">About Us</a></li>
+                     <li><a href="products.html" aria-label="go to products page">Products </a></li>
+                     <li><a href="services.html" aria-current="page" aria-label="go to services page">Services </a></li>
                  </ul>
               </nav>
          </div><!--Closes nav-container-->
@@ -35,7 +35,7 @@
         <h1>Services</h1>
         <!----------------------------------------------------------------------------------------------------------------------------------------------------
         ------------------------------------------------------------------What We offer---------------------------------------------------------------------->
-        <section>
+        <section role="region" role="region">
             <h2> What We Offer</h2>
                 <div class="offer-container"><!--Opens oofer-container--><!---Opened this to dispay grid 2 columns-->
                     <div class="offer-item"> 
@@ -47,7 +47,7 @@
                 </div>
         </section>
 
-        <section class="packages">
+        <section class="packages" role="region">
             <h2>Packages</h2>
             <div class="packages-container">
                 <div class="package-item">
@@ -83,14 +83,14 @@
             </div><!--Closes packages-container-->
         </section>
 
-        <section id="contact">
+        <section id="contact" role="region">
            <div class="other-container">
              <div class="other-item">
                 <h3> Leave Us a Message</h3>
                 <p>We love to hear from you. If you have any questions, please leave us a message </p>
                 <form action="/submit" method="get">
                     <label for="name"> Name</label><br>
-                    <input type="text" id="name" name="fname"><br>
+                    <input type="text" id="name" name="name"><br>
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email"><br>
                     <label for="message">Message:</label><br>
@@ -107,7 +107,7 @@
 
         
     </main>
-    <footer>
+    <footer role="contentinfo">
       <p>  © 2023, Cake Up Bakery. All rights reserved.</p>
         <p>
             2065 Baseline Rd. Ottawa, ON K2G 6G4

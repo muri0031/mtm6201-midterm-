@@ -10,18 +10,18 @@
     <!-------------------------------------------------------------------------------------------------------------------------------------------
     -----------------------------------------------------------Header---------------------------------------------------------------------------->
     <!--Header, Nav menu & image-->
-    <header>
+    <header role="banner">
        <div class="nav-container"><!--Open nav-container-->
        
             <div>
                 <img src="images/logo.png" alt="Logo" class="logo"><!--This is to display in the same row nav ul and logo-->
             </div>
-            <nav>
+            <nav role="navigation">
                  <ul> 
-                    <li><a href="index.html">Home</a></li>
-                    <li> <a href="about.html">About Us</a></li>
-                    <li><a href="products.html">Products </a></li>
-                    <li><a href="services.html">Services </a></li>
+                    <li><a href="index.html" aria-current="page" aria-label="go to home Page">Home</a></li>
+                    <li> <a href="about.html" aria-label="go to about page">About Us</a></li>
+                    <li><a href="products.html" aria-label="go to products page">Products </a></li>
+                    <li><a href="services.html" aria-label="go to services page">Services </a></li>
                 </ul>
              </nav>
         </div><!--Closes nav-container-->
@@ -36,7 +36,7 @@
 <!-----------------------------------------------------------------------------------------------------------------------------------------------------
     ----------------------------------------------------------------------Get to Know Us------------------------------------------------------------->
     <h2>Get to Know Us</h2>
-        <section class="about"><!--First Section-->
+        <section role="region" class="about"><!--First Section-->
             
             <div class="container">
             
@@ -57,7 +57,7 @@
     </section>
            <!--------------------------------------------------------------------------------------------------------------------------------------
         -----------------------------------------------------------------Latest Creations----------------------------------------------------------->
-         <section class="Creations">  <!--Second Section-->
+         <section role="region" class="Creations">  <!--Second Section-->
             <h2>Latest Creations</h2>
 
             <div class="grid-container"><!--Opens grid-container-->
@@ -78,7 +78,7 @@
 
        <!----------------------------------------------------------------------------------------------------------------------------------------------
     -------------------------------------------------------------------------Reviews-------------------------------------------------------------------->
-            <section><!--Third Section-->
+            <section role="region"><!--Third Section-->
                 <h2>Reviews from our costumers</h2>
                 <div class="reviews"><!--Opens Reviews--><!--Opened this to display first grid-->
                     <div class="review-container"><!--Opens Review-container--><!--Opened this to display second grid inside the review (this is each review)-->
@@ -109,12 +109,12 @@
             </div><!--Closes Reviews-->
             </section>
            <div class="button"> 
-                 <a id="shopNowButton" href="services.html#contact">Shop Now</a>
+                 <a id="shopNowButton" href="services.html#contact" aria-label="go to contact us section">Shop Now</a>
             </div>
             </main>
 <!--------------------------------------------------------------------------------------------------------------------------------------------
 ---------------------------------------------------------------------Footer--------------------------------------------------------------------->
-    <footer>
+    <footer role="contentinfo">
       <p>  © 2023, Cake Up Bakery. All rights reserved.</p>
         <p>
             2065 Baseline Rd. Ottawa, ON K2G 6G4
