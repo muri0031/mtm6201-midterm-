@@ -299,7 +299,7 @@ footer{
     background-color: #985A9D;
 }
 
-.package-item h3,h4{
+.package-item h3{
     color:#CBE54E;
 }
 .package-item p{
@@ -309,7 +309,8 @@ footer{
 }
 
 .package-item h4{
-    margin-left: 25px;
+    padding-left: 25px;
+    background-color: #CBE54E;
 }
 /**************************************************************************** Other******************************************************************** */
 .other-container {
