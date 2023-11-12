@@ -13,7 +13,7 @@ h1,h2,h3{
 }
 
 h1{
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: var(--h1-size);
     margin-bottom: 80px;
 }
@@ -198,7 +198,7 @@ margin-right: 140px;
     text-align: center;
 }
 .review-container span{
-    background-color: #985A9D;
+    background-color:#5b0062;
     padding: 23px;
     text-align: center;
 }
@@ -253,7 +253,7 @@ footer{
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------Products Page-------------------------------------------------------------*/
-#product{
+.product{
     width: 350px;
     height: 450px;
     border-radius: 10%;
