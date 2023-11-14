@@ -26,7 +26,7 @@
              </nav>
         </div><!--Closes Nav-container-->
        <div class="image-container"><!--Opens container (this is for Nav Image)-->
-         <img itemprop="photo" id="pop" src="images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg" alt="Our Bakery">
+         <img itemprop="photo" id="pop" src="images/ourbakery.jpg" alt="Our Bakery">
        </div>
     </header>
     
@@ -39,7 +39,7 @@
     <div class="about-wrap"><!--Opens about-Wrap--> <!--Opened to display grid-->
         
         <div class="about-container">
-            <img src="images/nafinia-putra-Kwdp-0pok-I-unsplash.jpg" alt="Our Bakery">
+            <img src="images/ourbakery.jpg" alt="Our Bakery">
         </div>
         <div class="about-container">
             <h3>How We Started</h3>
@@ -61,7 +61,29 @@
                          <img class="logomove" src="images/logo.png" alt="Our Logo">
                 </div>
                 <div class="about-container"> 
-                          <img src="images/robert-bye-F2eHfMwIOxA-unsplash.jpg" alt="Our Store">
+                    <picture>
+                        <source srcset="images/shop/shop-450_x_300.jpg,
+                                        images/shop/shop-900_x_600.jpg 2x,
+                                        images/shop/shop-1348_x_898.jpg 3x"
+                                  media="(min-width: 891px)"/>
+                    
+                                
+                        <source srcset="images/shop/shop-300_x_199.jpg,
+                                        images/shop/shop-600_x_399.jpg 2x,
+                                        images/shop/shop-900_x_600.jpg 3x"
+                                media="(min-width: 392px)"/>
+
+                    
+                    
+                        <source srcset="images/shop/shop-200_x_133.jpg,
+                                        images/shop/shop-450_x_300.jpg 2x,
+                                        images/shop/shop-600_x_399.jpg 3x"
+                                media="(max-width: 391px)"/>
+                    
+                        <img itemprop="image"
+                         src="images/shop images/ab5086bb66c97573b3dfe3fceb565c3e.jpg"
+                         alt="Our Store">
+                      </picture>
                 </div>
             </div><!--Closes About-Wrap-->
 </section> 

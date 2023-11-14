@@ -36,8 +36,13 @@ body{
 }
 /**************************************************************** Navegation************************************************************************* */
 .logo{
-    height: 150px;
+    height: 100px;
+    width: 100px;
     
+}
+#logo{
+    width: 150px;
+    height: 130px;
 }
 
 .image-wrapper{
@@ -140,6 +145,7 @@ margin-right: 140px;
    margin-left: 200px;
    display: flex;
    flex-direction: row;
+   justify-content: space-around;
 }
 
 .container p{
@@ -160,7 +166,7 @@ margin-right: 140px;
     justify-content: center;  
 }
 .image{
-    width: 423px;
+    width: 450px;
     height: 329px;
 }
 
@@ -318,9 +324,10 @@ footer{
     background-color:#CBE54E;
 
 }
-
 .products-wrap h4{
     color: #985A9D;
+    font-size: 20pt;
+    font-weight: bold;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------
