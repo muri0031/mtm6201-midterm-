@@ -503,7 +503,7 @@ h3{
 
 
 /***************************************************************** Latest Creations *****************************************************************/
-/.grid-container {
+.grid-container {
    width: 90%;
 }
 .grid-item img {
@@ -638,7 +638,7 @@ footer{
 .other-container :last-child{
     /* margin-left: 0px; */
 }
-  }
+  
 
 
 
@@ -844,7 +844,7 @@ footer{
   width: 100%;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: repeat(300px, 300px, 350px, 200px);
+  grid-template-rows: repeat(300px, 300px, 300px, 300px);
 }
 
 .products-wrap p{
